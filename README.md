@@ -14,7 +14,7 @@ The aim of the analysis was to provide actionable insights to Maria, who is the 
 
 The school board has notfied Maria and her team of possible academic dishonesty on math and reading scores of Thomas High School ninth-graders. The analysis helps to correct the error by making the affected scores null-and-void and describing how the changes affected the overall analysis.
 
-The analysis involved looking at over **39,000** student records at over **15** district and charter schools. The analysis was done in Pyhton using Pandas and NumPy in Jupyter Notebook
+The analysis involved looking at over **39,000** student records at over **15** district and charter schools. The analysis was done in Python using Pandas and NumPy in Jupyter Notebook
 
 ## 2. Results
 
@@ -33,7 +33,7 @@ Since the scores of ninth-graders for THS were declared null-and-void, the distr
 
 The school summary was afftecd **only for Thomas High School** since there were **no other changes in the dataset for the other schools.** In the revised scenario, there was **significant decline** *Passing %* across math, reading and overall scenarios driven by the fact that the ninth-graders were not considered. The images below show that the passing percentages went down from 90% levels to 65% approximately , almost a 25% decline in absolute terms.
 
-However, on substituting the scores of the rest of the students (10th-12th grades) from Thomas High School to the overall score, we see the decline in the *Passing %* has been corrected to previous levels. This scenario is shown in the thrid image below.
+However, on substituting the scores of the rest of the students (10th-12th grades) from Thomas High School to the overall score, we see the decline in the *Passing %* has been corrected to previous levels. This scenario is shown in the third image below.
 
 *For this analysis, replacing the scores of the 9th Graders from THS with historical scores or comparative scores from other schools might also have been a solution which might provided us with a different result*
 
@@ -48,7 +48,7 @@ However, on substituting the scores of the rest of the students (10th-12th grade
 
 As shared above, in the revised scenario, there was **significant decline** *Passing %* across math, reading and overall scenarios driven by the fact that the ninth-graders were not considered. The images below show that the passing percentages went down from 90% levels to 65% approximately , almost a 25% decline in absolute terms. However, on substituting the scores of the 10th-12th graders for a better comaprison, the scores are corrected again to a prior levels. *(Images a, b, c)*
 
-From ranking standpoint, with the last correction of substituting the 9th grade scores with ones from 10-12th grades, Thomas High School retains its **Second** position ranking as one of the best performing schools in the district even thought he Passing percentages have changed a little. *(Images d,e)*
+From ranking standpoint, with the last correction of substituting the 9th grade scores with ones from 10-12th grades, Thomas High School retains its **Second** position ranking as one of the best performing schools in the district even though the Passing percentages have changed a little. *(Images d,e)*
 
 *a. Original School Summary*
 ![a. Original School Summary](Resources/School_Summary_Module.png)
@@ -99,12 +99,12 @@ The spending of each school or the spending per student did not change in this a
 
 #### *iii) Scores by school size*
 
-Similar to the above analysis, since the number of students laregly stayesd the same, there wasn't any major change in this criteria and both sceraios produced **very simialr results.**
+Similar to the above analysis, since the number of students laregly stayesd the same, there wasn't any major change in this criteria and both sceraios produced **very similar results.**
 
 
 #### *iv) Scores by school type*
 
-Similar to the above analysis, since the number of students laregly stayesd the same, there wasn't any major change in this criteria and both sceraios produced **very simialr results.**
+Similar to the above analysis, since the number of students laregly stayesd the same, there wasn't any major change in this criteria and both sceraios produced **very similar results.**
 
 
 
